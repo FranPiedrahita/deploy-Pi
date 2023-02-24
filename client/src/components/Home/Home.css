@@ -1,0 +1,50 @@
+#home {
+  
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/364/185/316/pokemon-poke-balls-artwork-wallpaper-preview.jpg");
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed ;
+    height: fit-content;;
+    
+  }
+  
+  .textFilter{
+    color:rgb(243, 240, 44);
+    font-size: 30px;
+  }
+  
+  .btnCrearhome {
+    position: absolute;
+    left: 20px;
+    top: 50px;
+    background-image: linear-gradient(
+      to right,
+      #31312f,
+      #010101
+    ); 
+    color: #fbff23; 
+    font-size: 14px; 
+    padding: 6px 12px; 
+    border-radius: 25px; 
+    border: none; 
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.25); 
+    transition: all 0.2s ease; 
+    text-transform: uppercase; 
+    letter-spacing: 1px; 
+    font-weight: 600; 
+    cursor: pointer; 
+    
+    transform: scale(1.05);
+  }
+  
+  .containerRecarga {
+    position: absolute;
+    right: 30px; 
+  
+    top: 50px;
+    height: 55px;
+  }
+  

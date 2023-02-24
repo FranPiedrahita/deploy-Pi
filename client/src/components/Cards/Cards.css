@@ -1,0 +1,24 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    text-decoration: none;
+    margin: 40px;
+    
+
+
+}
+
+.cargando {
+background-image: url("https://andro4all.com/hero/2019/02/Fondos-de-pantalla-de-Pokemon.jpg?width=1200");
+    position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.cardDetail {
+  margin: 20px;
+  text-decoration: none;
+  
+}

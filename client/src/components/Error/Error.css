@@ -1,0 +1,24 @@
+.error-container {
+    background-image: url("https://assets.pokemon.com/assets//cms-es-es/img/funzone/downloads/xy/Yveltal-Pokemon-X-and-Y_1920x1200.jpg");
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.error-title {
+    
+    font-size: 72px;
+    color: #f44336;
+    margin-bottom: 16px;
+  }
+  
+  .error-message {
+    font-size: 24px;
+    color: #f6f5f5;}

@@ -1,0 +1,108 @@
+.btnOrdenar {
+    position: center;
+    background-image: linear-gradient(
+      to right,
+      #fee607,
+      #b89405
+    ); 
+    color: #080808;
+    font-size: 14px; 
+    padding: 6px 12px; 
+    border-radius: 25px; 
+    border: none; 
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.25); 
+    transition: all 0.2s ease; 
+    letter-spacing: 1px; 
+    font-weight: 600; 
+    cursor: pointer; 
+    margin: 20px;
+  }
+  
+  
+  .btnCreados {
+    position: center;
+    background-image: linear-gradient(
+      to right,
+      #fee607,
+      #b89405
+    ); 
+    color: #060606; 
+    font-size: 14px; 
+    padding: 6px 12px; 
+    border-radius: 25px; 
+    border: none; 
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.25); 
+    transition: all 0.2s ease; 
+    text-transform: uppercase; 
+    letter-spacing: 1px; 
+    font-weight: 600; 
+    cursor: pointer; 
+    margin: 20px;
+  }
+  
+  .btnTipos {
+    position: center;
+    background-image: linear-gradient(
+      to right,
+      #fee607,
+      #b89405
+    ); 
+    color: #050505; 
+    font-size: 14px; 
+    padding: 6px 12px; 
+    border-radius: 25px; 
+    border: none; 
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.25);
+    transition: all 0.2s ease; 
+    letter-spacing: 1px; 
+    text-transform: uppercase;
+    font-weight: 600; 
+    cursor: pointer; 
+    margin: 20px;
+  }
+  
+  
+  .btnAbout {
+     
+    letter-spacing: 1px;
+     width: 155px;
+     top: 135px;
+     right: 20px;
+     bottom: 0;
+     height: 35px;
+     color: white;
+     font-size: 12px;
+     text-transform: uppercase;
+     font-weight: 600;
+     background-image: linear-gradient(
+     to right,
+     #fee607,
+      #b89405
+   ); 
+     position: absolute;
+     background-color: rgba(219, 210, 210, 0.866);  
+     border: none; 
+     padding: 5px 15px;
+     border-radius: 50px; 
+     cursor: pointer; 
+   }
+   .BotonRESET{
+    position: center;
+    background-image: linear-gradient(
+      to right,
+      #fee607,
+      #b89405
+    ); 
+    color: #060606; 
+    font-size: 14px; 
+    padding: 6px 12px; 
+    border-radius: 25px; 
+    border: none; 
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.25); 
+    transition: all 0.2s ease; 
+    text-transform: uppercase; 
+    letter-spacing: 1px; 
+    font-weight: 600; 
+    cursor: pointer; 
+    margin: 20px;
+   }

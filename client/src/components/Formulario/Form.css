@@ -1,0 +1,126 @@
+.form{
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/696/177/76/pokemon-pokeball-red-wallpaper-preview.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: max-content;
+    color: rgb(246, 255, 78)
+  }
+  
+  .conteiner {
+    flex-wrap: wrap;
+      width: 500px; /* para darle un ancho al formulario */
+      margin: 0 auto; /* para centrarlo en la página */
+      padding: 20px; /* para darle un poco de espacio alrededor */
+      background-color: rgba(5, 3, 60, 0.674);
+      text-decoration: none;
+    }
+  
+    .typesSelect {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 2px;
+      background-color: rgba(244, 255, 39, 0.933);
+   
+  
+    }
+  
+    .pTypes {
+      font-family: "Pokemon", sans-serif;
+      font-size: 1rem;
+      color: rgb(247, 15, 15);
+      margin-right: 0.5vw;
+      
+    }
+  
+    .btnDelete {
+      text-decoration: none;
+      width: 3vw;
+      height: 3vh;
+      background-color: rgba(239, 2, 2, 0.816);
+      color: rgb(0, 0, 0);
+      border: none;
+      border-radius: 5px;
+      box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.651);
+      font-family: "Verdana", sans-serif;
+      font-size: 0.8rem;
+      text-align: center;
+      cursor: pointer;
+    }
+  
+    .btnDelete:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgba(48, 30, 9, 0.897);
+    }
+  
+    
+    .titulo {
+      display: block; 
+      margin-bottom: 10px; 
+      background-color: rgb(59, 124, 231);
+    }
+    .tipos {
+      width: 95%; 
+      padding: 10px; 
+      margin-bottom: 220px; 
+      background-color: rgba(244, 5, 5, 0.581)
+    }
+    
+    .input {
+      width: 95%; 
+      padding: 10px; 
+      margin-bottom: 20px; 
+      background-color: rgba(154, 152, 152, 0.485)
+    }
+  .atributos {
+    width: 95%; 
+      padding: 10px; 
+      margin-bottom: 20px; 
+      background-color: rgba(154, 152, 152, 0.485)
+  }
+  
+    .atributos2 {
+      width: 95%; 
+      padding: 10px;
+      margin-bottom: 20px; 
+      background-color: rgba(154, 152, 152, 0.485)
+    }
+  
+    .input {
+      border: 1px solid rgb(170, 159, 159); 
+    }
+    
+    .back-button {
+      background-color: rgb(141, 143, 144); 
+      color: rgb(251, 251, 251); 
+      padding: 4px 8px; 
+      border-radius: 4px;
+      border: none; 
+      font-size: 14px;
+      cursor: pointer; 
+      transition: background-color 0.2s ease; 
+      display: flex; 
+      align-items: center; 
+      text-decoration: none;
+    }
+    
+    .back-button svg {
+      margin-right: 8px; 
+      fill: #fff; 
+      text-decoration: none;
+      color: white;
+    }
+    
+    .back-button:hover {
+      background-color: #444; 
+    }
+    
+    .btnCrear {
+      width: 95%; 
+      padding: 10px; 
+      margin-bottom: 20px; 
+      background-color: rgba(154, 152, 152, 0.485)
+    }

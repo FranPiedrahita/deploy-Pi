@@ -1,0 +1,95 @@
+#contenedor {
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/64/492/854/pokemon-video-games-minimalism-wallpaper-preview.jpg');
+    background-position: center;
+      background-size: cover;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+       height: 1200px; 
+  }
+  .btnEliminar{
+   
+      background-color: rgba(255, 0, 0, 0.785);
+      color: white;
+      padding: 10px 20px;
+      border-radius: 50px;
+      border: none;
+      cursor: pointer;
+      float: right;
+    }
+  
+    .btnEliminar:hover {
+  
+      background-color: rgba(48, 30, 9, 0.897);
+      color: rgb(255, 255, 255);
+    }
+  
+    .btnBack{
+      background-color: rgba(246, 229, 229, 0.492);
+      color: rgb(4, 0, 0);
+      padding: 10px 20px;
+      border-radius: 50px;
+      border: none;
+      cursor: pointer;
+      float: left;
+    }
+  
+    .btnBack:hover{
+      background-color: rgba(48, 30, 9, 0.897);
+      color: rgb(255, 255, 255);
+    }
+  .img {
+      width: 250px;
+      -webkit-filter: drop-shadow(5px 5px 5px #222);
+      filter: drop-shadow(5px 5px 5px #222);
+      padding: 20px;
+    }
+    
+    .container {
+      margin-left: 700px;
+      margin-right: auto;
+      width: 600px;
+      border-radius: 25px;
+      border-color: rgb(0, 0, 0);
+      background-color: rgb(110, 110, 95);
+      box-shadow: 2px 1px 20px;
+    }
+    
+    .title1 {
+      margin-top: -50px;
+      margin-bottom: -50px;
+      font-size: 30px;
+      letter-spacing: 2px;
+      text-shadow: black 5px 5px 5px;
+      font-family: "Pokemon";
+      -webkit-text-stroke: 3px rgba(7, 3, 232, 0.259);
+      color: rgb(255, 255, 0);
+    }
+    
+    .boxTypes{
+      text-align: center;
+      background-color: rgb(235, 172, 76);
+      margin-left: 20px;
+      margin-right: 20px;
+      border-radius: 15px;
+      border: black 2px solid;
+    }
+    
+    .boxContainer{
+      display: flex;
+    }
+    
+    .box1{
+      width: 200px;
+      background-color: blanchedalmond;
+      border-radius: 25px;
+      margin: 25px;
+      border: black 2px solid;
+    }
+    
+    .box2{
+      width: 200px;
+      background-color: rgb(170, 231, 79);
+      border-radius: 25px;
+      margin: 25px;
+      border: black 2px solid;
+    }
