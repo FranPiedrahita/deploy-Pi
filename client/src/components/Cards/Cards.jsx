@@ -30,14 +30,20 @@ export default function Cards() {
   }, [dispatch]);
   const misPokemonsfiltrados = miFiltro(allFilter, statePoke);
   
+  
+  
   const indexOfLastPokes = paginaActual * 12; // 15
   const indexOfFirstPoke = indexOfLastPokes - 12; // 0
 
   // const currentPokes = misPokemonsfiltrados.slice( indexOfFirstPoke, indexOfLastPokes);
+const handlerRestaurar = (e) =>{
+    dispatch(getPokemones(()=> setLoading(false)));
+}
 
   return (
     <>
       <NavBar />
+      <button onClick={(e)=>handlerRestaurar(e)} className="Recarga">Restaurar</button>
       <Filtros />
       <Paginado allPokemones={misPokemonsfiltrados.length} />
       <br />

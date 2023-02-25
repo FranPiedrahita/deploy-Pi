@@ -202,7 +202,7 @@ export default function CreatePokemon() {
             🔙
           </Link>
         </button>
-        <h2>¡Create your Pokemon!</h2>
+        <h2>Diseña Tu Pokemon</h2>
 
         <br />
         <form onSubmit={(e) => handleSubmit(e)} className="form">
@@ -244,7 +244,7 @@ export default function CreatePokemon() {
             ></img>
             <p>{error.img}</p>
           </div>
-          <h3>Attributes !</h3>
+          <h3>Datos</h3>
 
           <div className="atributos">
             <label>Attack: </label>
@@ -383,7 +383,7 @@ export default function CreatePokemon() {
             <button disabled={!disEna && "disabled"} type={"submit"}>
               Create now!
             </button>
-            {!disEna ? <p>Check all fields</p> : <p></p>}
+            {!disEna ? <p>❌Revisa Tu Informacion❌</p> : <p></p>}
           </div>
         </form>
         <br />

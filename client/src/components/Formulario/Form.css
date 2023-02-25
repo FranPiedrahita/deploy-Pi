@@ -5,7 +5,7 @@
     background-attachment: fixed;
     background-repeat: no-repeat;
     height: max-content;
-    color: rgb(246, 255, 78)
+    color: rgb(195, 205, 0)
   }
   
   .conteiner {
@@ -73,28 +73,46 @@
       width: 95%; 
       padding: 10px; 
       margin-bottom: 20px; 
-      background-color: rgba(154, 152, 152, 0.485)
+      background-color: rgba(215, 235, 0, 0.83)
     }
   .atributos {
     width: 95%; 
       padding: 10px; 
       margin-bottom: 20px; 
-      background-color: rgba(154, 152, 152, 0.485)
+      background-color: rgba(255, 0, 0, 0.784)
   }
   
     .atributos2 {
       width: 95%; 
       padding: 10px;
       margin-bottom: 20px; 
-      background-color: rgba(154, 152, 152, 0.485)
+      background-color: rgba(229, 22, 22, 0.878)
     }
   
     .input {
-      border: 1px solid rgb(170, 159, 159); 
-    }
+      position: center;
+      background-image: linear-gradient(
+        to right,
+        #fee607,
+        #b89405
+      ); 
+      color: #060606; 
+      font-size: 14px; 
+      padding: 6px 12px; 
+      border-radius: 25px; 
+      border: none; 
+      box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.25); 
+      transition: all 0.2s ease; 
+      text-transform: uppercase; 
+      letter-spacing: 1px; 
+      font-weight: 600; 
+      cursor: pointer; 
+      margin: 20px;
+     }
+  
     
     .back-button {
-      background-color: rgb(141, 143, 144); 
+      background-color: rgb(241, 222, 13); 
       color: rgb(251, 251, 251); 
       padding: 4px 8px; 
       border-radius: 4px;
@@ -122,5 +140,5 @@
       width: 95%; 
       padding: 10px; 
       margin-bottom: 20px; 
-      background-color: rgba(154, 152, 152, 0.485)
+      background-color: rgba(11, 10, 10, 0.485)
     }
