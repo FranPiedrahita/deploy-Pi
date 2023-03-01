@@ -8,7 +8,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import axios from "axios";
 
 
-axios.defaults.baseURL="http://localhost:3001"
+axios.defaults.baseURL="deploy-pi-production-b1e3.up.railway.app"
 function App() {
   return (
     <BrowserRouter>
