@@ -17,7 +17,7 @@ export const INICIO_PAGE="INICIO_PAGE"
 
 export const getPokemones = (alterminar) => {
   return async (dispatch) => {
-    let pedidoApi = await axios.get("/pokemons/");
+    let pedidoApi = await axios.get("pokemons/");
     alterminar()
    return dispatch({ 
       type: "GET_POKEMONES",
@@ -30,7 +30,7 @@ export const getPokemones = (alterminar) => {
 export function getDetail(id) {
     return async function (dispatch) {
       
-        let url = await axios.get(`/pokemons/${id}` );
+        let url = await axios.get(`pokemons/${id}` );
         return dispatch({
           type: "GET_DETAILS",
           payload: url.data,
@@ -41,7 +41,7 @@ export function getDetail(id) {
   export function getNamePoke(name,alterminar){
     return async function (dispatch) {
       let url = await axios.get(
-        `/pokemons?name=${name}`
+        `pokemons?name=${name}`
         );
         try {
        alterminar()
@@ -72,7 +72,7 @@ export function getDetail(id) {
         type : pokemon.types,
         weight: pokemon.weight,
         }
-      var response = await axios.post("/pokemons", pok)
+      var response = await axios.post("pokemons", pok)
       return dispatch({
         
         type: "CREATE_POKEMON",
@@ -84,7 +84,7 @@ export function getDetail(id) {
 
   export function getTypes() {
       return async function (dispatch) {
-        let type = await axios.get("/types");
+        let type = await axios.get("types");
         return dispatch({ 
           type: "GET_TYPES", 
           payload: type.data });
